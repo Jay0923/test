@@ -1,0 +1,58 @@
+body{
+    background: rgb(20, 46, 69) ;
+    color: rgb(97, 136, 171);
+     font-family: 'Roboto', sans-serif;;
+}
+header{
+    text-align: center;
+}
+form{
+    background: rgb(4, 33, 58);
+    width: 70vh;
+    margin: 0 auto;
+    font-size: 17px;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+fieldset{
+    border: none;
+    border-bottom: solid 2px rgb(3, 21, 37);
+}
+#fname, #lname, textarea, #fastfood, #hex, #slider, #submit {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom:12px;
+    margin-left: 5px;
+}
+#fname, #lname, textarea, #fastfood{
+    background-color: #475F94;
+    border: solid 2px #475F94;
+}
+#submit{
+    margin: 0 auto;
+    max-width: 50%;
+}
+#hex{
+    width: 60px;
+}
+select{
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 12pxpx;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+button{
+    background-color: rgb(91, 134, 214);
+    position: fixed;
+    bottom: 0;
+    right: 10;
+    border: none ;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+}

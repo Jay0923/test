@@ -1,0 +1,137 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+    <link rel="stylesheet" href="other.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Test Form</h1>
+      <p>Please fill out this form</p>
+    </header>
+    <form action="">
+      <fieldset>
+        <label for="Fname"
+          >First Name: <input type="text" name="fname" id="Fname" required
+        /></label>
+        <label for="lname"
+          >Last Name: <input type="text" name="Lname" id="lname" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <p>1.What's your favorite donut?</p>
+        <div>
+          <label for="glaze"
+            ><input
+              type="radio"
+              name="Fav Donut"
+              id="glaze"
+              value="Glaze"
+              required
+            />
+            Glaze</label
+          >
+        </div>
+        <div>
+          <label for="sugar"
+            ><input type="radio" name="Fav Donut" id="sugar" value="Sugar" />
+            Sugar</label
+          >
+        </div>
+        <div>
+          <label for="chocolate"
+            ><input
+              type="radio"
+              name="Fav Donut"
+              id="chocolate"
+              value="Chocolate"
+            />
+            Chocolate</label
+          >
+        </div>
+        <div>
+          <label for="blueberry"
+            ><input
+              type="radio"
+              name="Fav Donut"
+              id="blueberry"
+              value="Chocolate"
+            />
+            Blueberry</label
+          >
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="fastfood"
+          >2. What's your favorite fast food chain?
+          <input type="text" id="fastfood" name="Fastfood" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="sport"
+          >3. Whats your fav sport?:<textarea
+            name="Sport"
+            id="sport"
+            cols="30"
+            rows="2"
+            required
+          ></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="Month"
+          >4. Select yout favorite month
+          <select required name="Favorite month" id="Month">
+            <option value="">Select:</option>
+            <option value="January">January</option>
+            <option value="Febuary">Febuary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="hex"
+          >5. Select your fav color:
+          <input required type="color" name="Color" id="hex"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <p>6. Play around with the little slider:</p>
+        <input type="range" name="slider" id="Slider" />
+      </fieldset>
+      <fieldset>
+        <label for="comment"
+          >7. Anything you'd like to say?:
+          <textarea
+            name="Comment"
+            required
+            id="comment"
+            cols="30"
+            rows="2"
+          ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+    <a id="pop" target="_blank" href="https://www.fitnessgrampacertest.com/">
+      <button>Click me :)</button>
+    </a>
+  </body>
+</html>
