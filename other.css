@@ -6,11 +6,9 @@ body{
 header{
     text-align: center;
 }
-@media screen and (max-width: 800px) {
-   form{
-    width: 60vh;
-   }
-}
+ @media(max-width: 800px) {
+        form {   width: 60vh;    }
+ }
 form{
     background: rgb(4, 33, 58);
     width: 70vh;
